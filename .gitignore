@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# Local H2 database
+data/
+*.mv.db
+*.trace.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Eclipse workspace files
+.metadata/
+.settings/
+.classpath
+.project
